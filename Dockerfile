@@ -2,7 +2,7 @@ FROM golang:1.14.6-alpine3.12
 
 # Meta data:
 LABEL maintainer="matthewgleich@gmail.com"
-LABEL description="PROJECT_DESCRIPTION"
+LABEL description="🦅 Get insights into your GitOps pipeline from PR to release"
 
 # Copying over all the files:
 COPY . /usr/src/app

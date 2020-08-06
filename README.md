@@ -1,13 +1,13 @@
 <!-- DO NOT REMOVE - contributor_list:data:start:["Matt-Gleich", "whitesource-bolt-for-github[bot]"]:end -->
 
-# PROJECT_NAME
+# eagleye
 
-PROJECT_DESCRIPTION
+🦅 Get insights into your GitOps pipeline from PR to release
 
-![build](https://github.com/Matt-Gleich/PROJECT_NAME/workflows/build/badge.svg)
-![test](https://github.com/Matt-Gleich/PROJECT_NAME/workflows/test/badge.svg)
-![lint](https://github.com/Matt-Gleich/PROJECT_NAME/workflows/lint/badge.svg)
-![release](https://github.com/Matt-Gleich/PROJECT_NAME/workflows/release/badge.svg)
+![build](https://github.com/Matt-Gleich/eagleye/workflows/build/badge.svg)
+![test](https://github.com/Matt-Gleich/eagleye/workflows/test/badge.svg)
+![lint](https://github.com/Matt-Gleich/eagleye/workflows/lint/badge.svg)
+![release](https://github.com/Matt-Gleich/eagleye/workflows/release/badge.svg)
 
 <!-- DO NOT REMOVE - contributor_list:start -->
 

@@ -1,6 +1,6 @@
 # Contributing
 
-👋 Welcome to PROJECT_NAME! Thank you for showing interest in contributing to PROJECT_NAME, we would love to have your contribution. Below are some requirements for contributing. Please read carefully!
+👋 Welcome to eagleye! Thank you for showing interest in contributing to eagleye, we would love to have your contribution. Below are some requirements for contributing. Please read carefully!
 
 ## 🐛 Requesting Features/Reporting Bugs
 

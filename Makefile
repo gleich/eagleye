@@ -11,7 +11,7 @@ build-docker-dev-lint:
 build-go:
 	go get -v -t -d ./...
 	go build -v .
-	rm PROJECT_NAME
+	rm eagleye
 
 #########
 # Linting
@@ -30,8 +30,8 @@ lint-hadolint:
 	hadolint dev.Dockerfile
 	hadolint dev.lint.Dockerfile
 lint-in-docker:
-	docker build -f dev.lint.Dockerfile -t mattgleich/PROJECT_NAME:lint .
-	docker run mattgleich/PROJECT_NAME:lint
+	docker build -f dev.lint.Dockerfile -t mattgleich/eagleye:lint .
+	docker run mattgleich/eagleye:lint
 
 #########
 # Testing
@@ -41,8 +41,8 @@ test-go:
 	go get -v -t -d ./...
 	go test ./...
 test-in-docker:
-	docker build -f dev.Dockerfile -t mattgleich/PROJECT_NAME:test .
-	docker run mattgleich/PROJECT_NAME:test
+	docker build -f dev.Dockerfile -t mattgleich/eagleye:test .
+	docker run mattgleich/eagleye:test
 
 ##########
 # Grouping
