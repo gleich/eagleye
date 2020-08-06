@@ -27,6 +27,10 @@ The comment includes the following data:
 
 eagleye stores all data in a postgresql database which you can read from freely!
 
+## 🙌 Contributing
+
+Before contributing please read the [CONTRIBUTING.md file](https://github.com/Matt-Gleich/PROJECT_NAME/CONTRIBUTING.md)
+
 <!-- DO NOT REMOVE - contributor_list:start -->
 
 ## 👥 Contributors
