@@ -1,4 +1,4 @@
-<!-- DO NOT REMOVE - contributor_list:data:start:["Matt-Gleich", "whitesource-bolt-for-github[bot]"]:end -->
+<!-- DO NOT REMOVE - contributor_list:data:start:["Matt-Gleich"]:end -->
 
 # eagleye
 
@@ -10,11 +10,9 @@
 ![release](https://github.com/Matt-Gleich/eagleye/workflows/release/badge.svg)
 
 <!-- DO NOT REMOVE - contributor_list:start -->
-
 ## 👥 Contributors
 
-- **[@Matt-Gleich](https://github.com/Matt-Gleich)**
 
-- **[@whitesource-bolt-for-github[bot]](https://github.com/apps/whitesource-bolt-for-github)**
+- **[@Matt-Gleich](https://github.com/Matt-Gleich)**
 
 <!-- DO NOT REMOVE - contributor_list:end -->
