@@ -1,7 +1,13 @@
 package main
 
-import "github.com/Matt-Gleich/eagleye/pkg/config"
+import (
+	"fmt"
+
+	"github.com/Matt-Gleich/eagleye/pkg/config"
+)
 
 func main() {
-	config.LoadGitLabConfig()
+	pname, config := config.LoadConfiguration()
+	fmt.Println(pname)
+	fmt.Println(config)
 }
