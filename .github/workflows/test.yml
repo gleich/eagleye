@@ -1,17 +1,10 @@
 name: test
 
-on:
-  push:
-  pull_request:
-  schedule:
-    - cron: '0 * * * *' # Runs every hour
+on: push
 
 jobs:
   test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [macos-latest, ubuntu-latest, windows-latest]
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2

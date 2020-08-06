@@ -1,7 +1,13 @@
 package main
 
-import "github.com/sirupsen/logrus"
+import (
+	"fmt"
+
+	"github.com/Matt-Gleich/eagleye/pkg/config"
+)
 
 func main() {
-	logrus.Info("Hello World!")
+	pname, config := config.LoadConfiguration()
+	fmt.Println(pname)
+	fmt.Println(config)
 }
