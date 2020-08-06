@@ -1,7 +1,7 @@
 package main
 
-import "github.com/sirupsen/logrus"
+import "github.com/Matt-Gleich/eagleye/pkg/config"
 
 func main() {
-	logrus.Info("Hello World!")
+	config.LoadGitLabConfig()
 }
