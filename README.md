@@ -9,9 +9,27 @@
 ![lint](https://github.com/Matt-Gleich/eagleye/workflows/lint/badge.svg)
 ![release](https://github.com/Matt-Gleich/eagleye/workflows/release/badge.svg)
 
-<!-- DO NOT REMOVE - contributor_list:start -->
-## 👥 Contributors
+## ❓ What is eagleye
 
+eagleye is a bot for VCS platforms such as GitLab or GitHub. Currently we only have support for self-hosted GitLab. It will automatically give labels and leave comments on your pull requests as the helm chart from that PR moves through the GitOps pipeline. Here is a diagram detailing at a high level how this works:
+
+![Overview graph](./docs/overview.png)
+
+### 💬 Comments
+
+The comment includes the following data:
+
+1. Helm chart file name
+2. Timestamp
+3. Stage name
+
+## 🤝 Integration
+
+eagleye stores all data in a postgresql database which you can read from freely!
+
+<!-- DO NOT REMOVE - contributor_list:start -->
+
+## 👥 Contributors
 
 - **[@Matt-Gleich](https://github.com/Matt-Gleich)**
 
