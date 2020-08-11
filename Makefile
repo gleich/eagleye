@@ -3,11 +3,11 @@
 ##########
 
 build-docker-prod:
-	docker build .
+	docker build -t mattgleich/eagleye:latest .
 build-docker-dev:
-	docker build -f dev.Dockerfile .
+	docker build -f dev.Dockerfile -t mattgleich/eagleye:test .
 build-docker-dev-lint:
-	docker build -f dev.lint.Dockerfile .
+	docker build -f dev.lint.Dockerfile -t mattgleich/eagleye:lint .
 build-go:
 	go get -v -t -d ./...
 	go build -v .
@@ -29,8 +29,7 @@ lint-hadolint:
 	hadolint Dockerfile
 	hadolint dev.Dockerfile
 	hadolint dev.lint.Dockerfile
-lint-in-docker:
-	docker build -f dev.lint.Dockerfile -t mattgleich/eagleye:lint .
+lint-in-docker: build-docker-dev-lint
 	docker run mattgleich/eagleye:lint
 
 #########
@@ -40,8 +39,7 @@ lint-in-docker:
 test-go:
 	go get -v -t -d ./...
 	go test ./...
-test-in-docker:
-	docker build -f dev.Dockerfile -t mattgleich/eagleye:test .
+test-in-docker: build-docker-dev
 	docker run mattgleich/eagleye:test
 
 ##########

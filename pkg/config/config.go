@@ -1,10 +1,11 @@
 package config
 
 import (
+	"os"
 	"strings"
 
 	"github.com/Matt-Gleich/eagleye/pkg/utils"
-	"github.com/sirupsen/logrus"
+	"github.com/Matt-Gleich/logoru"
 )
 
 type GitLabConfig struct {
@@ -13,7 +14,7 @@ type GitLabConfig struct {
 }
 
 func LoadConfiguration() (string, GitLabConfig) {
-	logrus.Info("Loading configuration from env")
+	logoru.Info("Loading configuration from env")
 	platform := utils.SafelyGetenv("EAGLEYE_PLATFORM")
 	var platformName string
 	var gitlabConfig GitLabConfig
@@ -22,11 +23,13 @@ func LoadConfiguration() (string, GitLabConfig) {
 		platformName = "gitlab"
 		gitlabConfig = loadGitLabConfig()
 	case "github":
-		logrus.Fatal("GitHub is currently not supported")
+		logoru.Error("GitHub is currently not supported")
+		os.Exit(1)
 	default:
-		logrus.Fatal(platform + " is not supported")
+		logoru.Error("Platform: \"" + platform + "\" is not supported")
+		os.Exit(1)
 	}
-	utils.Success("Loaded configuration!")
+	logoru.Success("Loaded configuration!")
 	return platformName, gitlabConfig
 }
 
