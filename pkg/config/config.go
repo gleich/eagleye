@@ -26,7 +26,7 @@ func LoadConfiguration() (string, GitLabConfig) {
 		logoru.Error("GitHub is currently not supported")
 		os.Exit(1)
 	default:
-		logoru.Error("Platform: \"" + platform + "\" is not supported")
+		logoru.Error("Platform: \"", platform, "\" is not supported")
 		os.Exit(1)
 	}
 	logoru.Success("Loaded configuration!")
