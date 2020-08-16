@@ -1,7 +1,7 @@
-github.com/Matt-Gleich/logoru v0.0.0-20200811173658-54594cff7853 h1:IjvIuzdXSad1rGWRLf3QNvdE8gT2+HRSzq6hAOZq4rk=
-github.com/Matt-Gleich/logoru v0.0.0-20200811173658-54594cff7853/go.mod h1:db3PO+L1XEhATt4QRc7jR7FGXACKPU+Nhzmby9wc7ow=
 github.com/Matt-Gleich/logoru v0.0.0-20200815222734-741a44685fd0 h1:FBZwDhK4pid5/lZ7TsUdH9+J8fpObdyv/1K7R4rmHO8=
 github.com/Matt-Gleich/logoru v0.0.0-20200815222734-741a44685fd0/go.mod h1:db3PO+L1XEhATt4QRc7jR7FGXACKPU+Nhzmby9wc7ow=
+github.com/Matt-Gleich/logoru v0.0.0-20200816211222-12d0f4755478 h1:hQAgq/c0NhKLGuYrPEqdVQRJeHKlSCwmD//SHOO7cJE=
+github.com/Matt-Gleich/logoru v0.0.0-20200816211222-12d0f4755478/go.mod h1:db3PO+L1XEhATt4QRc7jR7FGXACKPU+Nhzmby9wc7ow=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
